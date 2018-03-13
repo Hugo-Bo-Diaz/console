@@ -1,0 +1,109 @@
+<!-- Config file for the game -->
+
+<config>
+  <app framerate_cap ="30">
+    <title>Game Development Testbed</title>
+    <organization>UPC</organization>
+  </app>
+	
+  <renderer>
+    <vsync value="true"/>
+  </renderer>
+
+  <window>
+    <resolution width="750" height="420" scale="1"/>
+    <fullscreen value="false"/>
+    <borderless value="false"/>
+    <resizable value="false"/>
+    <fullscreen_window value="false"/>
+  </window>
+
+  <audio>
+    <volume default="80"/>
+    <fx_volume default="30"/>
+  </audio>
+
+  <file_system>
+    <path>data.zip</path>
+  </file_system>
+
+  <map>
+    <folder>maps/</folder>
+    <initial_map value ="0"/>
+    <background r ="60" g="240" b="225"/>
+    <timer value ="101"/>
+    <map directory ="Mainmenu.tmx"/>
+    <map directory ="map0.tmx"/>
+    <map directory ="map1.tmx"/>
+    <map directory ="map2.tmx"/>
+    <map directory ="map3.tmx"/>
+    <map directory ="Highscore.tmx"/>
+  </map>
+
+  <Entities>
+    <properties>
+      <Player type ="0">
+        <property value = "22"   name ="width"/>
+        <property value = "45"   name ="height"/>
+        <property value = "10"   name ="jump_accel"/>
+        <property value = "2"    name ="ground_accel"/>
+        <property value = "4"    name ="velocity"/>
+        <property value = "0.45" name ="gravity"/>
+        <property value = "0.3"  name ="hability"/>
+      </Player>
+      <Bat type ="1">
+        <property value ="30"    name ="width"/>
+        <property value ="28"    name ="height"/>
+        <property value ="2"     name ="ground_accel"/>
+        <property value ="2"     name ="velocity"/>
+        <property value ="0.0"   name ="gravity"/>
+      </Bat>
+      <Zombie type ="2">
+        <property value="30"    name ="width"/>
+        <property value="38"    name ="height"/>
+        <property value="2.5"     name ="ground_accel"/>
+        <property value="2.5"     name ="velocity"/>
+        <property value="0.45"   name ="gravity"/>
+      </Zombie>
+      <Coin type ="3">
+        <property value="25"    name ="width"/>
+        <property value="25"    name ="height"/>
+        <property value="10"    name ="offset_x"/>
+        <property value="10"    name ="offset_y"/>
+      </Coin>
+    </properties>
+    <textures>
+      <tex path ="textures/PilotSprites.png" for ="player" num ="0"/>
+      <tex path ="textures/Bat.png" for ="bat" num ="1"/>
+      <tex path ="textures/Zombie.png" for ="zombie" num ="2"/>
+      <tex path ="textures/Biplane.png" for ="plane" num ="3"/>
+      <tex path ="textures/endscreen.png" for ="end_screen" num ="4"/>
+      <tex path ="textures/GasCoin25.png" for ="coin" num ="5"/>
+    </textures>
+    <sounds>
+      <sfx path ="audio/fx/coin.wav" for ="coin" num ="0"/>
+      <sfx path ="audio/fx/coin2.wav" for ="coin" num ="1"/>
+      <sfx path ="audio/fx/death_bat.wav" for ="bat" num ="2"/>
+      <sfx path ="audio/fx/death_zombie.wav" for ="zombie" num ="3"/>
+      <sfx path ="audio/fx/player_death.wav" for ="player" num ="4"/>
+      <sfx path ="audio/fx/jump.wav" for ="player" num ="5"/>
+      <sfx path ="audio/fx/jump2.wav" for ="player" num ="6"/>
+    </sounds>
+  </Entities>
+  
+  <collision>
+    <debug value ="false"/>
+  </collision>
+
+  <gui>
+    <atlas file ="gui/atlas.png"/>
+  </gui>
+
+  <transition>
+    <speed value="15"/>
+  </transition>
+
+  <scene>
+    <starting_lifes value ="3"/>
+  </scene>
+</config>

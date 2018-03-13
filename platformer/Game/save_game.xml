@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<game_state>
+	<input />
+	<window />
+	<textures />
+	<audio>
+		<volume value="112" />
+		<fx_volume value="30" />
+	</audio>
+	<scene>
+		<coins value="9" />
+		<lifes value="3" />
+		<score value="0" />
+		<highscores />
+	</scene>
+	<gui />
+	<fonts />
+	<pathfinding />
+	<collision />
+	<map>
+		<current_map value="0" />
+		<time_left value="98" />
+	</map>
+	<Entities />
+	<physics />
+	<transition />
+	<renderer>
+		<camera x="0" y="0" />
+	</renderer>
+</game_state>

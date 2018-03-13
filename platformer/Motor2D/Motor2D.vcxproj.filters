@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="j1Window.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Audio.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1App.cpp">
+      <Filter>Desenvolupament  ========</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Input.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Main.cpp">
+      <Filter>Desenvolupament  ========</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Render.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Textures.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="p2Log.cpp">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Scene.cpp">
+      <Filter>Desenvolupament  ========\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="PugiXml\src\pugixml.cpp">
+      <Filter>Desenvolupament  ========\Tools\PuguiXML</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Map.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Collision.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Physics.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Entitymanager.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer.cpp">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="j1PerfTimer.cpp">
+      <Filter>Desenvolupament  ========\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Timer.cpp">
+      <Filter>Desenvolupament  ========\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEnemyBat.cpp">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Pathfinding.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityEnemyZombie.cpp">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlane.cpp">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCoin.cpp">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Gui.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Fonts.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Transition.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="UIbutton.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UICheckBox.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UIelement.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UIimage.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UItext.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UItextbox.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UIVarDisplay.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UIwindow.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="UISlider.cpp">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClCompile>
+    <ClCompile Include="j1Console.cpp">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="j1Window.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Audio.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Input.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Render.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Textures.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Defs.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="p2List.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Log.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="p2SString.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="p2Point.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="p2DynArray.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Scene.h">
+      <Filter>Desenvolupament  ========\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="PugiXml\src\pugiconfig.hpp">
+      <Filter>Desenvolupament  ========\Tools\PuguiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="PugiXml\src\pugixml.hpp">
+      <Filter>Desenvolupament  ========\Tools\PuguiXML</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Map.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Collision.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Desenvolupament  ========</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Physics.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1App.h">
+      <Filter>Desenvolupament  ========</Filter>
+    </ClInclude>
+    <ClInclude Include="j1EntityManager.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityInteractive.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="j1PerfTimer.h">
+      <Filter>Desenvolupament  ========\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Timer.h">
+      <Filter>Desenvolupament  ========\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEnemyBat.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Pathfinding.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="p2PQueue.h">
+      <Filter>Programacio 2 ===========</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBackground.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityEnemyZombie.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlane.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="EntityCoin.h">
+      <Filter>Desenvolupament  ========\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Fonts.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Gui.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="UItextbox.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UIbutton.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UIelement.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UIimage.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UItext.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UICheckBox.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Transition.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="UIwindow.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UIVarDisplay.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="UISlider.h">
+      <Filter>Desenvolupament  ========\UI Elements</Filter>
+    </ClInclude>
+    <ClInclude Include="j1Console.h">
+      <Filter>Desenvolupament  ========\Modules</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Programacio 2 ===========">
+      <UniqueIdentifier>{a8bfab6a-5472-4969-943e-861a8b493f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========">
+      <UniqueIdentifier>{cb944693-b9d0-484c-bad2-02d5a7cdbec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\Tools">
+      <UniqueIdentifier>{42c748be-4a37-49de-970f-5be811d06b38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\Scenes">
+      <UniqueIdentifier>{e07660eb-d36f-4cc9-af59-324d31c2f2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\Modules">
+      <UniqueIdentifier>{244722d1-90ce-423d-8e7a-556211865a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\Tools\PuguiXML">
+      <UniqueIdentifier>{7cb78d67-17cc-45eb-af97-e2106becce7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\Entities">
+      <UniqueIdentifier>{4a721b95-d1c8-463a-bcd5-b841a8e3ae46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Desenvolupament  ========\UI Elements">
+      <UniqueIdentifier>{2e467448-4bcf-4583-9e77-10c4a180f1ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="WhereIsMyPlane.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Game\textures\icon.ico" />
+  </ItemGroup>
+</Project>
