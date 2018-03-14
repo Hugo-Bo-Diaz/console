@@ -103,6 +103,11 @@ public:
 	{
 		return true;
 	}
+	
+	virtual bool Console_Interaction(int function, int* array_of_parameters = nullptr)
+	{
+		return true;
+	}
 
 public:
 

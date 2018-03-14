@@ -1,3 +1,4 @@
 ﻿  j1Console.cpp
-  Motor2D.vcxproj -> C:\Users\Hugo\Documents\GitHub\Game-dev-platformer\platformer\Debug\WhereIsMyPlane.exe
-  Motor2D.vcxproj -> C:\Users\Hugo\Documents\GitHub\Game-dev-platformer\platformer\Debug\WhereIsMyPlane.pdb (Full PDB)
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(125): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\p2sstring.h(287): warning C4715: 'p2SString::DeleteChar': not all control paths return a value
+  Motor2D.vcxproj -> C:\Users\hugobd\Documents\GitHub\console\platformer\Debug\WhereIsMyPlane.exe

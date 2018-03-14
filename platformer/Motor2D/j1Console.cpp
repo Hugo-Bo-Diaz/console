@@ -28,7 +28,7 @@ bool j1Console::Awake(pugi::xml_node& config)
 
 bool j1Console::Start()
 {
-
+	AddFunction("name1",this,1,1);
 	return true;
 }
 
@@ -75,6 +75,7 @@ bool j1Console::Update(float dt)
 	return true;
 }
 
+
 bool j1Console::PostUpdate(float dt)
 {
 	BROFILER_CATEGORY("PostUpdate_Console", Profiler::Color::DarkOliveGreen);
@@ -109,12 +110,71 @@ bool j1Console::UIinteraction(UIelement* element)
 		p2SString new_string = textbox->text;
 		LOG(new_string.GetString());
 		logs.add(new_string);
+		//we gonna need to analyze this string
+
+		//every space in this will be starting a new string
+		p2List<const char*> strings;
+		for (int i = 0; i < 10; ++i)
+		{
+			strings[i] = "";
+		}
+
+		const char* in = new_string.GetString();
+		int current_string=0;
+		const char* func;
+		strings.add(func);
+		p2List_item<const char*>* item = strings.start;
+		for (int i = 0; i < new_string.Length(); ++i)
+		{
+			
+			if (in[i] == 32)//space
+			{
+				++current_string;
+			}
+		}
+
+		//now we check if he inputed a function
+
+		p2List_item<function*>* item = functions.start;
+		while (item != NULL)
+		{
+			if (item->data->name == strings[0] )
+			{
+				item->data->callback->Console_Interaction( functions.find(item->data));
+			}
+			item = item->next;
+		}
 
 		//so fukin dirty :V
 		App->gui->delete_element(textbox);
 		input = (UITextbox*)App->gui->GUIAdd_textbox(0, App->win->screen_surface->h / 2, this);
 	}
 
+	return true;
+}
+
+int j1Console::AddFunction(const char* name, j1Module* callback, int min_args, int max_args)
+{
+	function* new_func = new function();
+
+	new_func->name = name;
+	new_func->min_args = min_args;
+	new_func->max_args = max_args;
+	new_func->callback = callback;
+
+	functions.add(new_func);
+
+	return functions.find(new_func);
+
+}
+
+bool j1Console::Console_Interaction(int function, int* array_of_parameters)
+{
+	if (first_function == function)
+	{
+		//this means my first_function has been called
+		LOG("works");
+	}
 	return true;
 }
 

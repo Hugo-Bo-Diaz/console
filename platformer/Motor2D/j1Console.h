@@ -7,6 +7,14 @@
 #include "p2List.h"
 #include "UItextbox.h"
 
+struct function
+{
+	p2SString name;
+	j1Module* callback;
+	int min_args;
+	int max_args;
+};
+
 class j1Console : public j1Module
 {
 public:
@@ -31,6 +39,13 @@ public:
 	p2List<p2SString> logs;
 	
 	UITextbox* input = nullptr;
+
+	p2List<function*> functions;
+	int AddFunction(const char*, j1Module* ,int, int);
+
+	int first_function=0;
+
+	bool Console_Interaction(int function, int* array_of_parameters);
 
 public:
 	bool console_active = false;
