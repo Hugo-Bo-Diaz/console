@@ -1,4 +1,3 @@
 ﻿  j1Console.cpp
-c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(125): warning C4018: '<': signed/unsigned mismatch
-c:\users\hugobd\documents\github\console\platformer\motor2d\p2sstring.h(287): warning C4715: 'p2SString::DeleteChar': not all control paths return a value
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(121): warning C4018: '<': signed/unsigned mismatch
   Motor2D.vcxproj -> C:\Users\hugobd\Documents\GitHub\console\platformer\Debug\WhereIsMyPlane.exe

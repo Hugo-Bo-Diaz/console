@@ -113,20 +113,14 @@ bool j1Console::UIinteraction(UIelement* element)
 		//we gonna need to analyze this string
 
 		//every space in this will be starting a new string
-		p2List<const char*> strings;
-		for (int i = 0; i < 10; ++i)
-		{
-			strings[i] = "";
-		}
+		p2SString strings[10];
 
 		const char* in = new_string.GetString();
 		int current_string=0;
-		const char* func;
-		strings.add(func);
-		p2List_item<const char*>* item = strings.start;
+		
 		for (int i = 0; i < new_string.Length(); ++i)
 		{
-			
+			strings[current_string] += in[i];
 			if (in[i] == 32)//space
 			{
 				++current_string;
@@ -135,14 +129,14 @@ bool j1Console::UIinteraction(UIelement* element)
 
 		//now we check if he inputed a function
 
-		p2List_item<function*>* item = functions.start;
-		while (item != NULL)
+		p2List_item<function*>* item_1 = functions.start;
+		while (item_1 != NULL)
 		{
-			if (item->data->name == strings[0] )
+			if (item_1->data->name == strings[0] )
 			{
-				item->data->callback->Console_Interaction( functions.find(item->data));
+				item_1->data->callback->Console_Interaction( functions.find(item_1->data));
 			}
-			item = item->next;
+			item_1 = item_1->next;
 		}
 
 		//so fukin dirty :V
