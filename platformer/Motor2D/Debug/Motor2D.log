@@ -1,3 +1,4 @@
 ﻿  j1Console.cpp
-c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(121): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(126): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(132): warning C4018: '<': signed/unsigned mismatch
   Motor2D.vcxproj -> C:\Users\hugobd\Documents\GitHub\console\platformer\Debug\WhereIsMyPlane.exe

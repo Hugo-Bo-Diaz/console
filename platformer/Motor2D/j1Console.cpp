@@ -114,14 +114,26 @@ bool j1Console::UIinteraction(UIelement* element)
 
 		//every space in this will be starting a new string
 		p2SString strings[10];
+		for (int i = 0; i < 9; ++i)
+		{
+			strings[i] = "";
+		}
 
-		const char* in = new_string.GetString();
+		char* out = new_string.str;
+
+		char string[60];
+		//now we copy the string from the checkbox into this string
+		for (int i = 0; i < new_string.Length(); ++i)
+		{
+			string[i] = out[i];
+		}
 		int current_string=0;
 		
 		for (int i = 0; i < new_string.Length(); ++i)
 		{
-			strings[current_string] += in[i];
-			if (in[i] == 32)//space
+			char lol = string[i];
+			strings[current_string] += &lol;
+			if (out[i] == 32)//space
 			{
 				++current_string;
 			}
