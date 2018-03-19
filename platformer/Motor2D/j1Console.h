@@ -6,6 +6,8 @@
 #include "j1Collision.h"
 #include "p2List.h"
 #include "UItextbox.h"
+#include <string>
+#include <list>
 
 struct function
 {
@@ -43,9 +45,11 @@ public:
 	p2List<function*> functions;
 	int AddFunction(const char*, j1Module* ,int, int);
 
-	int first_function=0;
+	int function_1;
+	int exit;
+	int help;
 
-	bool Console_Interaction(int function, int* array_of_parameters);
+	bool Console_Interaction(int function, p2List<int>* arguments);
 
 public:
 	bool console_active = false;

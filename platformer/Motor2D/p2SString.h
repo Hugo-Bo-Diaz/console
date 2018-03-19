@@ -14,10 +14,10 @@ class p2SString
 private:
 
 	unsigned int size;
+	char* str;
 
 public:
 
-	char* str;
 	// Constructors
 	p2SString()
 	{

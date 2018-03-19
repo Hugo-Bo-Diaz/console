@@ -1,4 +1,154 @@
-﻿  j1Console.cpp
-c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(126): warning C4018: '<': signed/unsigned mismatch
-c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(132): warning C4018: '<': signed/unsigned mismatch
+﻿  EntityCoin.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entitycoin.cpp(52): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\entitycoin.cpp(60): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entitycoin.cpp(61): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entitycoin.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entitycoin.cpp(63): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
+  Compiling...
+  j1Window.cpp
+  j1Transition.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1transition.cpp(49): warning C4244: '-=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1transition.cpp(70): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1transition.cpp(74): warning C4244: '=': conversion from 'uint32' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1transition.cpp(75): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  j1Textures.cpp
+  j1Scene.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1scene.cpp(103): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1scene.cpp(107): warning C4018: '>': signed/unsigned mismatch
+  j1Render.cpp
+  j1Physics.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(116): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(115): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(200): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(229): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(262): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(263): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(264): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  j1Pathfinding.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1pathfinding.cpp(207): warning C4018: '<': signed/unsigned mismatch
+  j1Map.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(77): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(90): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(92): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(98): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(532): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(534): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(638): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.cpp(640): warning C4018: '<': signed/unsigned mismatch
+  j1Main.cpp
+  j1Input.cpp
+  j1Gui.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  j1Fonts.cpp
+  j1Entitymanager.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.h(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.h(42): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1entitymanager.cpp(327): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1entitymanager.cpp(328): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1entitymanager.cpp(329): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1entitymanager.cpp(354): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  j1Console.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(129): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(152): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(156): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(160): warning C4018: '>': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(164): warning C4018: '<=': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1console.cpp(164): warning C4018: '>=': signed/unsigned mismatch
+  j1Collision.cpp
+  j1Audio.cpp
+  j1App.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(212): warning C4244: 'initializing': conversion from 'uint32' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(217): warning C4244: '=': conversion from 'uint32' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(289): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(272): warning C4477: 'sprintf_s' : format string '%lu' requires an argument of type 'unsigned long', but variadic argument 5 has type 'uint64'
+  c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(272): note: consider using '%llu' in the format string
+  c:\users\hugobd\documents\github\console\platformer\motor2d\j1app.cpp(272): note: consider using '%I64u' in the format string
+  UIwindow.cpp
+  UItextbox.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\uitextbox.cpp(58): warning C4018: '<': signed/unsigned mismatch
+  UItext.cpp
+  Generating Code...
+c:\users\hugobd\documents\github\console\platformer\motor2d\p2sstring.h(287): warning C4715: 'p2SString::DeleteChar': not all control paths return a value
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1physics.cpp(286): warning C4715: 'j1Physics::GetObjectFromRect_predictor': not all control paths return a value
+  Compiling...
+  UIimage.cpp
+  UIelement.cpp
+  UIbutton.cpp
+  UIVarDisplay.cpp
+  UISlider.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\uislider.cpp(19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\uislider.cpp(60): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\uislider.cpp(75): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\uislider.cpp(76): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\uislider.cpp(87): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  UICheckBox.cpp
+  EntityPlayer.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(90): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(91): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(101): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(109): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(110): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(173): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(202): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(203): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(290): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.cpp(291): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  EntityPlane.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  EntityEnemyZombie.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.h(42): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(56): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(67): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(75): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(76): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(89): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(90): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(107): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemyzombie.cpp(122): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  EntityEnemyBat.cpp
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(51): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityplayer.h(53): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\j1map.h(168): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.h(43): warning C4305: 'initializing': truncation from 'double' to 'float'
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(69): warning C4018: '<': signed/unsigned mismatch
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(77): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(78): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(111): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(128): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(149): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\hugobd\documents\github\console\platformer\motor2d\entityenemybat.cpp(150): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   Motor2D.vcxproj -> C:\Users\hugobd\Documents\GitHub\console\platformer\Debug\WhereIsMyPlane.exe

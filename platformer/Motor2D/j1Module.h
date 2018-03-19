@@ -7,6 +7,7 @@
 #define __j1MODULE_H__
 
 #include "p2SString.h"
+#include "p2List.h"
 #include "PugiXml\src\pugixml.hpp"
 
 class j1App;
@@ -104,7 +105,7 @@ public:
 		return true;
 	}
 	
-	virtual bool Console_Interaction(int function, int* array_of_parameters = nullptr)
+	virtual bool Console_Interaction(int function, p2List<int>* arguments)
 	{
 		return true;
 	}
